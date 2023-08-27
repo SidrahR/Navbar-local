@@ -1,0 +1,1 @@
+// Image should be exported from here
