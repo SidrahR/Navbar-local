@@ -268,7 +268,7 @@ export default function Navbar() {
               <div className="relative">
                 <LiaShoppingBagSolid className="h-8 w-10 text-gray-800 md:h-12 md:w-16 lg:h-8 lg:w-10" />
                 <div className="absolute left-0 top-1 flex h-8 w-10 items-center justify-center text-xs  font-semibold text-red-700 md:h-12 md:w-16 md:mt-0.5 lg:mt-0 md:text-base lg:h-8 lg:w-10 lg:text-xs">
-                  12
+                  0
                 </div>
               </div>
             </Link>

@@ -5,7 +5,7 @@ export default function page() {
   return (
     <div className="overflow-x-hidden bg-stone-100">
       {/* Image with Heading */}
-      <div className="h-[50vh] relative w-screen lg:h-[80vh]">
+      <div className="h-[50vh] relative w-screen lg:h-[85vh]">
         {/* Image*/}
         <div className="relative w-full h-full">
           <Image
