@@ -39,7 +39,7 @@ export default function DropdownMenu({
             <Link
               href=""
               onClick={handleLinkClick}
-              className="font-semibold text-gray-800 transition-all duration-300 ease-in-out hover:text-gray-700"
+              className="font-semibold text-gray-800 transition-all duration-100 ease-in-out hover:text-gray-600"
             >
               Silicone Collection
             </Link>
@@ -51,7 +51,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Tote Bags
               </Link>
@@ -60,7 +60,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Shoulder Bags
               </Link>
@@ -69,7 +69,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Straps
               </Link>
@@ -78,7 +78,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Purses
               </Link>
@@ -87,7 +87,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Backpacks
               </Link>
@@ -103,7 +103,7 @@ export default function DropdownMenu({
             <Link
               href=""
               onClick={handleLinkClick}
-              className="font-semibold text-gray-800 transition-all duration-300 ease-in-out hover:text-gray-700"
+              className="font-semibold text-gray-800 transition-all duration-100 ease-in-out hover:text-gray-600"
             >
               Leather Like Collection
             </Link>
@@ -114,7 +114,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Tote Bags
               </Link>
@@ -123,7 +123,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Hobo Bags
               </Link>
@@ -132,7 +132,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Shoulder Bags
               </Link>
@@ -141,7 +141,7 @@ export default function DropdownMenu({
               <Link
                 href=""
                 onClick={handleLinkClick}
-                className="transition-all duration-300 ease-in-out hover:text-gray-800"
+                className="transition-all duration-100 ease-in-out hover:text-gray-950"
               >
                 Straps
               </Link>
@@ -163,7 +163,7 @@ export default function DropdownMenu({
               alt="nav_image"
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
-              className="transition-all duration-1000 ease-in-out group-hover:scale-105"
+              className="transition-all duration-700 ease-in-out group-hover:scale-105"
             />
           </div>
           {/* Overlay */}
@@ -189,7 +189,7 @@ export default function DropdownMenu({
               alt="nav_image"
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
-              className="transition-all duration-1000 ease-in-out group-hover:scale-105"
+              className="transition-all duration-700 ease-in-out group-hover:scale-105"
             />
           </div>
           {/* Overlay */}
