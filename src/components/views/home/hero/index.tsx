@@ -4,7 +4,6 @@ import {
   Pagination,
   Autoplay,
   A11y,
-  EffectFade,
   Parallax,
 } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
