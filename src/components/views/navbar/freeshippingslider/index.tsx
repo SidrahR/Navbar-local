@@ -27,12 +27,12 @@ export default function FreeShippingSlider() {
         modules={[Autoplay]}
         breakpoints={{
           320: {
-            speed: 15000,
+            speed: 12000,
           },
           768: {
             speed: 20000,
           },
-          1024: { speed: 60000 },
+          1024: { speed: 35000 },
         }}
         className="absolute top-0 left-0 z-50 w-full text-stone-100 text-xs md:text-base lg:text-xs text-center swiper-container-free-mode tracking-wider"
       >
