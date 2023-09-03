@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-export default function index() {
+export default function Login() {
   // Variable to get typed email
   const [email, setEmail] = useState("");
   // Variable to get typed password

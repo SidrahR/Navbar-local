@@ -1,7 +1,7 @@
 import members from "../../../assets/images/account/members.jpg";
 import Image from "next/image";
 
-export default function index() {
+export default function Members() {
   return (
     <div className="py-12 md:py-20 bg-stone-100 flex flex-col md:flex-row">
       {/* Image on Left */}
