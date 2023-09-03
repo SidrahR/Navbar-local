@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function index() {
   return (
-    <div className="py-10 md:py-16 bg-stone-100 flex flex-col md:flex-row">
+    <div className="py-12 md:py-20 bg-stone-100 flex flex-col md:flex-row">
       {/* Image on Left */}
       <div className="md:basis-1/2 flex items-center justify-center">
         <div className="relative w-[20rem] h-[24rem] lg:w-[28rem] lg:h-[32rem]">

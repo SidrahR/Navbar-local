@@ -1,5 +1,12 @@
 "use client";
-import { Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Autoplay,
+  A11y,
+  EffectFade,
+  Parallax,
+} from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -75,7 +82,7 @@ const HeroSection = () => {
     <>
       <section>
         <Swiper
-          modules={[Navigation, Pagination, Autoplay, A11y]}
+          modules={[Navigation, Pagination, Autoplay, A11y, Parallax]}
           slidesPerView={1}
           navigation={true}
           autoplay={{
@@ -85,12 +92,22 @@ const HeroSection = () => {
           pagination={{
             clickable: true,
           }}
+          parallax={true}
+          loop={true}
+          breakpoints={{
+            320: {
+              speed: 1500,
+            },
+            768: {
+              speed: 1700,
+            },
+            1024: { speed: 3000 },
+          }}
         >
           {slideImages.map((slideImage, index) => (
             <SwiperSlide key={index}>
               <div className="relative w-screen h-screen flex items-center justify-center cursor-pointer">
                 <div className="relative w-full h-full">
-
                   {/* layout="fill" , objectFit="cover" property on the Image to set w-screen */}
 
                   <Image
@@ -105,16 +122,33 @@ const HeroSection = () => {
 
                 <div className="absolute inset-0 bg-black opacity-30" />
                 <div className="absolute z-10 text-white items-center text-center">
-                  <div className="mb-6 text-sm max-md:text-xs">
+                  <div
+                    className="mb-6 text-sm max-md:text-xs"
+                    data-swiper-parallax="-300"
+                    data-swiper-parallax-opacity="0"
+                  >
                     {slideImage.text.sub_Header}
                   </div>
-                  <h2 className="text-6xl max-md:text-3xl max-lg2:text-4xl ">
+                  <h2
+                    className="text-6xl max-md:text-3xl max-lg2:text-4xl "
+                    data-swiper-parallax="-300"
+                    data-swiper-parallax-opacity="0"
+                  >
                     {slideImage.text.heading}
                   </h2>
                   <div className="text-xl mt-6">
-                    <p>{slideImage.text.paragraph}</p>
+                    <p
+                      data-swiper-parallax="-300"
+                      data-swiper-parallax-opacity="0"
+                    >
+                      {slideImage.text.paragraph}
+                    </p>
                   </div>
-                  <div className="mt-9">
+                  <div
+                    className="mt-9"
+                    data-swiper-parallax="-300"
+                    data-swiper-parallax-opacity="0"
+                  >
                     <HowerGrowButton
                       text={slideImage.text.button}
                       href={"/shop-now"}

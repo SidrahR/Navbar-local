@@ -3,7 +3,9 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function index() {
+  // Variable to get typed email
   const [email, setEmail] = useState("");
+  // Variable to get typed password
   const [password, setPassword] = useState("");
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {

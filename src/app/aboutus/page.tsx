@@ -5,16 +5,18 @@ export default function page() {
   return (
     <div className="overflow-x-hidden bg-stone-100">
       {/* Image with Heading */}
+
       <div className="h-[50vh] relative w-screen lg:h-[85vh]">
         {/* Image*/}
         <div className="relative w-full h-full">
           <Image
             src={about_image}
             fill
-            alt="about us"
+            alt="about_us"
             style={{ objectFit: "cover", objectPosition: "top" }}
           />
         </div>
+
         {/* Overlay */}
         <div className="pointer-events-none absolute inset-0 bg-black/30"></div>
 
@@ -24,6 +26,7 @@ export default function page() {
             <h1 className="font-normal text-3xl md:text-6xl text-stone-100">
               About Us
             </h1>
+
             {/* Underline */}
             <div className="w-8 md:w-16 h-[2px] md:h-[4px] lg:h-[3px] bg-stone-100 mt-3 md:mt-5 "></div>
           </div>
